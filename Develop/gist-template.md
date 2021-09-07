@@ -4,7 +4,7 @@ A regular expression is a pattern of characters that helps to match text.
 
 ## Summary
 
-The regex I will be describing is a regex matching a Hex Value: `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/` .
+The regex I will be describing is a regex matching a Hex Value: `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ The regex I will be describing is a regex matching a Hex Value: `/^#?([a-f0-9]{6
 ## Regex Components
 
 ### Anchors
-
+The snippit `/^#` is an anchor. The anchor says something regarding the string based on the character next to it. The `^` character signifies the beginning of a string. The `#` character signifies a hexadecimal number.
 ### Quantifiers
 
 ### Grouping Constructs
